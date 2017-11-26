@@ -20,3 +20,9 @@ chsh -s /usr/bin/fish
 2. www.google.com/chrome
 3. Download .deb
 4. `sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb`
+5. `sudo apt --fix-broken install`
+
+# Terminator
+```bash
+sudo apt-get install terminator
+```
