@@ -31,3 +31,15 @@ sudo apt-get install vim
 ```bash
 sudo apt-get install terminator
 ```
+
+# Python 3.6
+```bash
+sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo apt-get update
+sudo apt-get install python3.6
+```
+
+# NFS
+```bash
+sudo apt-get install nfs-common
+```
