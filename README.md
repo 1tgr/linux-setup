@@ -43,3 +43,10 @@ sudo apt-get install python3.6
 ```bash
 sudo apt-get install nfs-common
 ```
+
+# xclip
+```bash
+sudo apt-get install xclip
+echo copy to clipboard | xclip -selection c
+xclip -selection c -o | vim -
+```
