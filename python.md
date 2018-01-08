@@ -7,7 +7,8 @@ jupyter contrib nbextension install --user
 ```
 Then restart Jupyter.
 
-Jupyter home page -> Nbextensions tab -> enable the extensions you want
+Jupyter home page -> Nbextensions tab -> enable the extensions you want:
+- ExecuteTime adds 'Last executed...' under each cell
 
 # `tqdm`
 Package for progress bars. Also works on the command line, special mode for notebooks.
