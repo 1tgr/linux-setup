@@ -51,7 +51,7 @@ echo copy to clipboard | xclip -selection c
 xclip -selection c -o | vim -
 ```
 
-# `git gui`
+# `git gui`
 ```bash
 sudo apt-get install git-gui
 ```
