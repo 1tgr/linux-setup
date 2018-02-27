@@ -1,4 +1,4 @@
-# Passwordless sudo
+# Passwordless `sudo`
 ```bash
 sudo visudo
 ```
@@ -7,7 +7,7 @@ Add to the end of the file:
 tim ALL=(ALL) NOPASSWD: ALL
 ```
 
-# fish shell
+# `fish` shell
 ```bash
 sudo apt-add-repository ppa:fish-shell/release-2
 sudo apt-get update
@@ -15,7 +15,7 @@ sudo apt-get install fish
 chsh -s /usr/bin/fish
 ```
 
-# vim
+# `vim`
 ```bash
 sudo apt-get install vim
 ```
@@ -44,9 +44,14 @@ sudo apt-get install python3.6
 sudo apt-get install nfs-common
 ```
 
-# xclip
+# `xclip`
 ```bash
 sudo apt-get install xclip
 echo copy to clipboard | xclip -selection c
 xclip -selection c -o | vim -
+```
+
+# `git gui`
+```bash
+sudo apt-get install git-gui
 ```
