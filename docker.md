@@ -22,3 +22,18 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 systemctl show --property=Environment docker
 ```
+
+(You don't need the last three commands if you're also going to do 'Listen over HTTP' below.)
+
+# Listen over HTTP
+```bash
+sudo vim /usr/lib/systemd/system/docker.service
+```
+Modify this line:
+```
+ExecStart=/usr/bin/dockerd -H=tcp://0.0.0.0:2375
+```
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
