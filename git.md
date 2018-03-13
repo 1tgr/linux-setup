@@ -11,3 +11,8 @@ lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
 lg = !"git lg1"
 ```
 (from https://stackoverflow.com/a/9074343)
+
+# `git pull` rebases instead of merges
+```bash
+git config --global --bool pull.rebase true
+```
