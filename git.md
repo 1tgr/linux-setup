@@ -16,3 +16,8 @@ lg = !"git lg1"
 ```bash
 git config --global --bool pull.rebase true
 ```
+
+# Automatically `prune` local copy of remote branches when they're deleted from the remote
+```bash
+git config --global --bool fetch.prune true
+```
