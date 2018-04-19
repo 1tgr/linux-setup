@@ -1,3 +1,12 @@
+# Notebook boilerplate
+```python
+%matplotlib inline
+%config InlineBackend.figure_format = 'retina'
+import numpy as np
+import pandas as pd
+from pandas import DataFrame
+```
+
 # `nbextensions`
 Nice addin for notebooks, e.g. ExecuteTime shows you the last time you ran a cell, plus how long it took.
 
