@@ -55,3 +55,13 @@ xclip -selection c -o | vim -
 ```bash
 sudo apt-get install git-gui
 ```
+
+# Adding `apt` keys behind a proxy
+https://askubuntu.com/questions/53146/how-do-i-get-add-apt-repository-to-work-through-a-proxy
+
+```bash
+sudo -E apt-key adv --recv-keys \
+    --keyserver-options http-proxy=$http_proxy \
+    --keyserver keyserver.ubuntu.com \
+    <key id>
+```
